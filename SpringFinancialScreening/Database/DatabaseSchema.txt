@@ -1,0 +1,11 @@
+﻿CREATE TABLE Products (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+	Description VARCHAR(255),
+    Category VARCHAR(50),
+	Brand VARCHAR(50),
+    Price DECIMAL(10,2),
+	StockAmount INT,
+	SKU VARCHAR(50),
+	FULLTEXT KEY (Name, Description)
+);

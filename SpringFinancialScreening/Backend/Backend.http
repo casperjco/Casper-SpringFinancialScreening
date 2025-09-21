@@ -1,0 +1,6 @@
+@Backend_HostAddress = http://localhost:5294
+
+GET {{Backend_HostAddress}}/springfinancialscreening/
+Accept: application/json
+
+###
